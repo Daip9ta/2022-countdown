@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jan 1, 2022 12:00:00").getTime();
+var countDownDate = new Date("Dec 31, 2021 12:00:00").getTime();
 
 var x = setInterval(function() {
   var now = new Date().getTime();
@@ -15,7 +15,7 @@ var x = setInterval(function() {
     document.getElementById("text2").innerHTML="hours";
     document.getElementById("text3").innerHTML="minutes";
     document.getElementById("text4").innerHTML="seconds";
-    document.getElementById("days").innerHTML ="0";
+    document.getElementById("days").innerHTML =days;
     document.getElementById("hours").innerHTML=hours ;
     document.getElementById("minutes").innerHTML=minutes ;
     document.getElementById("seconds").innerHTML=seconds ;
