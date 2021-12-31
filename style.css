@@ -6,3 +6,30 @@ h1 {
 	text-align:center;
 	color:#fff;
 }
+
+.countdown {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.mmm {
+    display: flex;
+    justify-content: space-between;
+    height: 80;
+    z-index: 1;
+    width: 60%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.newyear {
+    font-size:80px;
+    color:#fff;
+}
